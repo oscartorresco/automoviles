@@ -1,0 +1,235 @@
+{% extends "base.html" %}
+{% block carousel %}
+<div id="myCarousel" class="carousel slide homCar">
+  <div class="carousel-inner">
+    <div class="item active">
+      <img style="width:100%" src="/static/imagen/inicio/aston1.jpg" alt=""/>
+    </div>
+    <div class="item">
+      <img style="width:100%" src="/static/imagen/inicio/aston2.jpg" alt=""/>
+    </div>
+    <div class="item">
+      <img style="width:100%" src="/static/imagen/inicio/aston3.jpg" alt=""/>
+    </div>
+    <div class="item">
+      <img style="width:100%" src="/static/imagen/inicio/ferrari1.jpg" alt=""/>
+    </div>
+    <div class="item">
+      <img style="width:100%" src="/static/imagen/inicio/ferrari2.jpg" alt=""/>
+    </div>
+    <div class="item">
+      <img style="width:100%" src="/static/imagen/inicio/ferrari3.jpg" alt=""/>
+    </div>
+    <div class="item">
+      <img style="width:100%" src="/static/imagen/inicio/lam1.jpg" alt=""/>
+    </div>
+    <div class="item">
+      <img style="width:100%" src="/static/imagen/inicio/lam2.jpg" alt=""/>
+    </div>
+    <div class="item">
+      <img style="width:100%" src="/static/imagen/inicio/lam3.jpg" alt=""/>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block vehiculos %}
+<div class="span9">
+  <h3>Algunos Vehiculos </h3>
+  <div class="row-fluid">
+    <div id="myCarousel1" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <ul class="thumbnails">
+            <li class="span3">
+              <div class="thumbnail">
+                <a href="#" class="tag" src="/static/imagen/new.png"></a>
+                <a  href="../ferrari"><img style="width: 300px; height: 150px;" src="/static/imagen/muestra/ferrari1.jpg" alt=""/></a>
+                <div class="caption">
+                  <h5>Ferrari 458</h5>
+                  <p> 
+                    velocidad y confort 
+                  </p>
+                  <h4><a class="btn" href="../ferrari">VER</a> <span class="pull-right">$245.000</span></h4>
+                </div>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="thumbnail">
+                <a href="#" class="tag" src="/static/imagen/new.png"></a>
+                <a  href="../ferrari"><img style="width: 300px; height: 150px;"src="/static/imagen/muestra/ferrari2.jpg" alt=""/></a>
+                <div class="caption">
+                  <h5>Ferrari 458 gtl</h5>
+                  <p>
+                    potencia 
+                  </p>
+                  <h4><a class="btn" href="../ferrari">VER</a> <span class="pull-right">$560.000</span></h4>
+                </div>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="thumbnail">
+                <a href="#" class="tag" src="/static/imagen/new.png"></a>
+                <a  href="../aston"><img style="width: 300px; height: 150px;" src="/static/imagen/muestra/aston1.jpg" alt=""/></a>
+                <div class="caption">
+                  <h5>Aston Martin DB12</h5>
+                  <p> 
+                    maximo lujo
+                  </p>
+                  <h4><a class="btn" href="../aston">VER</a> <span class="pull-right">$329.000</span>
+                  </h4>
+                </div>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="thumbnail">
+                <a  href="../aston"><img style="width: 300px; height: 150px;"src="/static/imagen/muestra/aston2.jpg" alt=""/></a>
+                <div class="caption">
+                  <h5>Aston Martin Ventage </h5>
+                  <p>
+                    lujos y presencia 
+                  </p>
+                  <h4><a class="btn" href="../aston">VER</a> <span class="pull-right">$250.000</span>
+                  </h4>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="item">
+          <ul class="thumbnails">
+            <li class="span3">
+              <div class="thumbnail">
+                <a  href="../nissan"><img style="width: 300px; height: 150px;" src="/static/imagen/muestra/niss1.jpg" alt=""/></a>
+                <div class="caption">
+                  <h5>Nissan gtr </h5>
+                  <p> 
+                    ingenio japones
+                  </p>
+                  <h4><a class="btn" href="../nissan">VER</a> <span class="pull-right">$158.000</span>
+                  </h4>
+                </div>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="thumbnail">
+                <a  href="../nissan"><img style="width: 300px; height: 130px;" src="/static/imagen/muestra/niss2.jpg" alt=""/></a>
+                <div class="caption">
+                  <h5>Nissan gtr Super Sport</h5>
+                  <p>
+                    V8-alphaBlack - lo mejor en autos
+                  </p>
+                  <h4><a class="btn" href="../nissan">VER</a> <span class="pull-right">$245.000</span>
+                  </h4>
+                </div>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="thumbnail">
+                <a  href="products_ford.html"><img style="width: 300px; height: 150px;"src="/static/imagen/muestra/ford1.jpg" alt=""/></a>
+                <div class="caption">
+                  <h5>Ford GT500</h5>
+                  <p>
+                    Poder y furia  
+                  </p>
+                  <h4><a class="btn" href="products_ford.html">VER</a> <span class="pull-right">$95.000</span>
+                  </h4>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <a class="left carousel-control" href="#myCarousel1" data-slide="prev">&lsaquo;</a>
+            <a class="right carousel-control" href="#myCarousel1" data-slide="next">&rsaquo;</a>
+      </div>
+    </div>
+  </div>
+  <h3>Proximamente En Venta </h3>
+  <ul class="thumbnails">
+    <li class="span3">
+      <div class="thumbnail">
+        <a  href="construccion.html"><img style="width: 300px; height: 200px;" src="/static/imagen/rin1.jpg" alt=""/></a>
+        <div class="caption">
+          <h5>Rines Maranello</h5>
+          <p> 
+            Rines para autos ferrari
+          </p>
+          <h4><a class="btn btn-large">$12.000</a><span class="pull-right"></span>
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li class="span3">
+      <div class="thumbnail">
+        <a href="#" class="tag" src="/static/imagen/new.png"></a>
+        <a  href="construccion.html"><img style="width: 300px; height: 200px;" src="/static/imagen/motor2.jpg" alt=""/></a>
+        <div class="caption">
+          <h5>Motor Audi R8</h5>
+          <p> 
+            turbo cargado con 560 hp 
+          </p>
+          <h4><a class="btn btn-large" >$40.000</a> <span class="pull-right"></span>
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li class="span3">
+      <div class="thumbnail">
+        <a  href="construccion.html"><img style="width: 300px; height:180px;" src="/static/imagen/sus1.jpg" alt=""/></a>
+        <div class="caption">
+          <h5>Suspension deportiva </h5>
+          <p>
+            Permite bajar tu auto de 1 a 2 cm y lograr mejorar el centro de gravedad
+          </p>
+          <h4><a class="btn btn-large" >$1.500</a> <span class="pull-right"></span>
+          </h4>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <ul class="thumbnails">
+    <li class="span3">
+      <div class="thumbnail">
+        <a  href="construccion.html"><img style="width: 300px; height: 200px;" src="/static/imagen/motor1.jpg" alt=""/>
+        </a>
+        <div class="caption">
+          <h5>Motor ferrari california</h5>
+          <p> 
+            Motor con 340 hp multiple de carreras 
+          </p>
+          <h4><a class="btn btn-large" >$ 46.000</a> <span class="pull-right"></span>
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li class="span3">
+      <div class="thumbnail">
+        <a href="#" class="tag" src="imagen/new.png"></a>
+        <a  href="construccion.html"><img style="width: 300px; height: 200px;" src="/static/imagen/rin3.jpg" alt=""/></a>
+        <div class="caption">
+          <h5>Rines de aluminio </h5>
+          <p> 
+            Rin 17 maxima duracion a menor peso
+          </p>
+          <h4><a class="btn btn-large">$3.500</a> <span class="pull-right"></span>
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li class="span3">
+      <div class="thumbnail">
+        <a  href="construccion.html"><img style="width: 300px; height: 200px;"src="/static/imagen/rin4.jpg" alt=""/></a>
+        <div class="caption">
+          <h5>Rin better</h5>
+          <p> 
+            Rin 22 para vehiculos maseratti 
+          </p>
+          <h4><a class="btn btn-large">$28.000</a> <span class="pull-right"></span>
+          </h4>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+{% endblock %}

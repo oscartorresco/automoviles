@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Colombia Sport Car</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="/static/css/bootstrap.css" rel="stylesheet">
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="/static/css/docs.css" rel="stylesheet"/>
+  <link href="/static/css/prettify.css" rel="stylesheet"/>
+  <link rel="shortcut icon" href="/static/imagen/logos.ico">
+  <script src="/static/js/jquery.js"></script>
+  <script src="/static/js/bootstrap-transition.js"></script>
+  <script src="/static/js/bootstrap-modal.js"></script>
+  <script src="/static/js/bootstrap-dropdown.js"></script>
+  <script src="/static/js/bootstrap-collapse.js"></script>
+  <script src="/static/js/bootstrap-carousel.js"></script>
+  <script src="/static/js/application.js"></script>
+  <script src="/static/js/google-code-prettify/prettify.js"></script>
+  <script src="/static/js/bootstrap-scrollspy.js"></script>
+  <script src="/static/js/bootstrap-alert.js"></script>
+  <script src="/static/js/bootstrap-tab.js"></script>
+  <script src="/static/js/bootstrap-tooltip.js"></script>
+  <script src="/static/js/bootstrap-popover.js"></script>
+  <script src="/static/js/bootstrap-button.js"></script>
+  <script src="/static/js/bootstrap-typeahead.js"></script>
+  <script src="/static/js/bootstrap-affix.js"></script>
+  <script src="/static/js/jquery.lightbox-0.5.js"></script>
+  <script src="/static/js/bootsshoptgl.js"></script>
+  <style type="text/css">
+    body { padding-top: 0px; padding-bottom: 0px; }
+  </style>
+</head>
+<body>
+  <!-- Navbar-->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+        <a data-target="#sidebar" data-toggle="collapse" class="btn btn-navbar">
+          <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <div class="nav-collapse">
+                  <ul class="nav">
+          <li class="active"><a href="../inicio">INICIO  </a></li>   
+          <li class=""><a href="../acercade">ACERCA DE </a></li>
+          <li class=""><a href="../contacto">CONTACTO</a></li>
+          </ul>
+                    <form action="#" class="navbar-search pull-left">
+                      <input id="srchFld" type="text" placeholder="BUSCAR ..." class="search-query span5"/>
+                    </form>
+                    <ul class="nav pull-right">
+                      <li class="dropdown">
+                        <div class="dropdown-menu">
+                          <form class="form-horizontal loginFrm">
+                            <div class="control-group">
+                              <input type="text" class="span2" id="inputEmail" placeholder="Email">
+                            </div>
+                            <div class="control-group">
+                              <input type="password" class="span2" id="inputPassword" placeholder="Password">
+                            </div>
+                            <div class="control-group">
+                              <label class="checkbox">
+                                <input type="checkbox"> Remember me
+                              </label>
+                              <button type="submit" class="btn pull-right">Sign in</button>
+                            </div>
+                          </form>         
+                        </div>
+                      </li>
+          </ul>
+                </div><!-- /.nav-collapse -->
+            </div>
+        </div><!-- /navbar-inner -->
+    </div>
+<!--  -->
+<div id="mainBody" class="container">
+  <header id="header">
+    <div class="row">
+      <div class="span12">
+        <div class="pull-right"> <br/>
+          <a href="../inicio"> <span class="btn btn-mini btn-warning"> <i class="icon-shopping-cart icon-white"></i> [ 0 ] </span> </a>
+          <a href="../inicio"><span class="btn btn-mini active">$0.0</span></a>
+          <span class="btn btn-mini">$</span> 
+        </div>
+      </div>
+    </div>
+    <div class="clr">
+    </div>
+  </header>
+{% block carousel %}{% endblock %}
+<div class="row">
+  <div>
+    <div id="sidebar" class="span3">
+      <div class="thumbnail">
+        <img src="/static/imagen/publicidad1.jpg" alt="">
+      </div>
+    </li>
+    <li style="border:0"> &nbsp;</li>
+    <li class="last">
+      <div class="thumbnail">
+        <img src="/static/imagen/publicidad2.jpg" alt="">
+      </div>
+    </li> 
+  </ul>
+  <ul class="nav nav-list bs-docs-sidenav" style="display: block;">
+    <li class="subMenu"><a> VEHICULOS </a>
+      <ul>
+        <li><a class="active" href="../ferrari">FERRARI</a></li>
+        <li><a href="../nissan">NISSAN</a></li>
+        <li><a href="../aston">ASTON MARTIN</a></li>
+        <li><a href="products_ford.html">FORD</a></li>
+        <li><a href="construccion.html">AUDI</a></li>
+        <li><a href="construccion.html">MASERATTI</a></li>
+      </ul>
+    </li>
+    <li class="subMenu"><a>ACCESORIOS</a>
+      <ul>
+        <li><a href="http://www.rinesonline.com/index.php?lang=en">RINES ON LINE</a></li>
+        <li><a href="http://www.productosmeximotor.com/p/catalogo-de-motores-deportivos.html">MOTORES DEPORTIVOS </a></li>
+        <li><a href="http://www.neumarket.com/?gclid=CMaBo7ao1r0CFRQaOgodLB4AFA">LLANTAS NACIONALES E IMPORTADAS</a></li> 
+      </ul>
+    </li>
+  </div>
+{% block vehiculos %}{% endblock %}
+</div>
+<hr class="soft">
+<div  id="footerSection">
+  <div class="row">
+    <div id="socialMedia" class="span3">
+      <h5>FACEBOOK</h6>
+        <a href="#"><img width="60" src="/static/imagen/facebook.png" title="facebook"/></a>
+      </div>
+      <div id="socialMedia" class="span3">
+        <h5>TWITTER</h5>
+        <a href="#"><img width="60" src="/static/imagen/twitter.png" title="twitter"/></a>
+      </div>
+      <div id="socialMedia" class="span3 ">
+        <h5>YOUTUBE</h5>
+        <a href="#"><img width="60" src="/static/imagen/youtube.png" title="youtube"/></a>
+      </div>
+      <hr class="soft">
+      <p class="pull-right">&copy; Colombia Sport Car</p>
+    </div><!-- /container -->
+  </div>
+</div>
+</body>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#gallery a').lightBox();
+  $('.myCarousel1').carousel({
+    interval: 4000
+  });
+});
+</script>
+</html>

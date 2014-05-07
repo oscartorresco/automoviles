@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+
+{% block vehiculos %}
+
+
+  <div class="span9">
+    <ul class="breadcrumb">
+    <li><a href="../home">Inicio</a> <span class="divider">/</span></li>
+    <li class="active">Vehiculos Nissan</li>
+    </ul>
+  <h3> Vehiculos <small class="pull-right"> 3 Vehiculos activos </small></h3> 
+  <hr class="soft"/>
+  <p>
+    Nissan Motor Company, es un fabricante japonés de automóviles. Su nombre común, Nissan, es un acrónimo de "Nippon Sangyo" (en japonés significa "industria japonesa"). Está entre las principales compañías automotrices en términos de producción anual de vehículos.
+  </p>
+      
+<div id="myTab" class="pull-right">
+ <a href="#listView" data-toggle="tab"><span class="btn btn-large"><i class="icon-list"></i></span></a>
+ <a href="#blockView" data-toggle="tab"><span class="btn btn-large active"><i class="icon-th-large icon-white"></i></span></a>
+</div>
+<br class="clr"/>
+<div class="tab-content">
+  <div class="tab-pane" id="listView">
+    <div class="row">   
+      <div id="productView" class="span2">
+        <img src="/static/imagen/muestra/black1.jpg" style="width: 300px; height: 130px;" alt="" width="300px" height="300px"/>
+      </div>
+      <div class="span4">
+        <h3>Nuevo | Activo</h3>       
+        <hr class="soft"/>
+        <h5>Nissan GT-R Black Edition </h5>
+        <p>
+        Si hay un  coche en el mercado al que los ingenieros de Porsche le tengan respeto, ese es el Nissan GT-R. Este coche se ha diseñado y desarrollado con la idea de vencer en cualquier tipo de terreno al 911 Turbo y por los tiempos que consiguió en Nürburgring, parece que lo ha conseguido. Se trata de un deportivo de dos plazas con tracción integral que se encarga de repartir en todo momento la fuerza entre los distintos ejes.
+
+        </p>
+        <a class="btn btn-small pull-right" href="../nissan">Ver</a>
+        <br class="clr"/>
+      </div>
+      <div class="span3 alignR">
+      <form class="form-horizontal qtyFrm">
+      <h3> $165.000</h3>
+        <a href="../nissan" class="btn btn-large"><i class=" icon-shopping-cart"></i> Al Carrito</a>
+        <a href="../nissan" class="btn btn-large">Detalles</a>
+      
+        </form>
+      </div>
+    </div>
+    <hr class="soft"/>
+    <div class="row">   
+      <div id="productView" class="span2">
+        <img src="/static/imagen/muestra/premiun.jpg" style="width: 300px; height: 130px;"alt=""/>
+      </div>
+      <div class="span4">
+        <h3>Nuevo | Activo</h3>       
+        <hr class="soft"/>
+        <h5>Nissan GT-R Premium Edition </h5>
+        <p>
+        Version para aquellos que desean pasar dejando huella sin perder el estilo de auto deportivo.
+        </p>
+        <a class="btn btn-small pull-right" href="nissan_premium.html">Ver</a>
+        <br class="clr"/>
+      </div>
+      <div class="span3 alignR">
+      <form class="form-horizontal qtyFrm">
+        <h3> $125.000</h3>
+        <label class="checkbox">
+        
+        </label><br/>
+        
+        <a href="nissan_premium.htlm" class="btn btn-large"><i class=" icon-shopping-cart"></i> Al Carrito</a>
+        <a href="nissan_premium.html" class="btn btn-large">Detalles</a>
+        
+      </form>
+      </div>
+    </div>
+    <hr class="soft"/>
+    <div class="row">   
+      <div id="productView" class="span2">
+        <img src="/static/imagen/muestra/track1.jpg" style="width: 300px; height: 130px;" alt=""/>
+      </div>
+      <div class="span4">
+        <h3>Nuevo | Activo</h3>       
+        <hr class="soft"/>
+        <h5>Nissan GT-R Track Pack </h5>
+        <p>Mas potencia mas poder mas elegancia, acabados deportivos tipo ferrari, con su toque rudo y matador un potente motor con doble turbo.
+        </p>
+        <a class="btn btn-small pull-right" href="nissan_pack.html">Ver</a>
+        <br class="clr"/>
+      </div>
+      <div class="span3 alignR">
+      <form class="form-horizontal qtyFrm">
+        <h3> $210.000</h3>
+        <label class="checkbox">
+          
+        </label><br/>
+        
+          <a href="nissan_pack.html" class="btn btn-large"><i class=" icon-shopping-cart"></i> Al Carrito</a>
+          <a href="nissan_pack.html" class="btn btn-large">Detalles</a>
+        
+      </form>
+      </div>
+    </div>
+    
+    <hr class="soft"/>
+  </div>
+
+  <div class="tab-pane  active" id="blockView">
+    <ul class="thumbnails">
+      <li class="span3">
+        <div class="thumbnail">
+        <a href="nissan_black.html"><img src="/static/imagen/muestra/black1.jpg" style="width: 300px; height: 130px;" alt=""/></a>
+        <div class="caption">
+          <h5>Nissan GTR Black Edition</h5>
+          <p> 
+          Si hay un  coche en el mercado al que los ingenieros de Porsche le tengan respeto, ese es el Nissan GT-R. Este coche se ha diseñado .....
+          </p>
+          <h4><a class="btn btn-large" href="nissan_black.html">Ver</a> <span class="pull-right">$165.000</span></h4>
+        </div>
+        </div>
+      </li>
+      <li class="span3">
+        <div class="thumbnail">
+        <a href="nissan_premium.html"><img src="/static/imagen/muestra/premiun.jpg" style="width: 300px; height: 130px;" alt=""/></a>
+        <div class="caption">
+          <h5>Nissan GTR Premium Edition</h5>
+          <p> 
+          Version para aquellos que desean pasar dejando huella sin perder....
+          </p>
+          <h4><a class="btn btn-large" href="nissan_premium.html">Ver</a> <span class="pull-right">$120.000</span></h4>
+        </div>
+        </div>
+      </li>
+      
+      <li class="span3">
+        <div class="thumbnail">
+        <a href="nissan_pack.html"><img src="/static/imagen/muestra/track1.jpg" style="width: 300px; height: 130px;" alt=""/></a>
+        <div class="caption">
+          <h5>Nissan GTR Track Pack</h5>
+          <p> 
+          Mas potencia mas poder mas elegancia, acabados deportivos tipo ferrari....
+          </p>
+           <h4><a class="btn btn-large" href="nissan_pack.html">Ver</a> <span class="pull-right">$210.000</span></h4>
+        </div>
+        </div>
+      </li>
+      </ul>
+  <hr class="soft"/>
+  </div>
+</div>
+
+  
+  <div class="pagination">
+      <ul>
+      <li><a href="#">&lsaquo;</a></li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">&rsaquo;</a></li>
+      </ul>
+      </div>
+      <br class="clr"/>
+</div>
+
+
+
+{% endblock %}
